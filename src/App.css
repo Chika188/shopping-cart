@@ -1,4 +1,0 @@
-/* 基础层包含的样式是应用于 HTML 元素的基础样式，用来统一统一各个平台差异的默认样式 */
-@tailwind base; 
-@tailwind components;
-@tailwind utilities;
