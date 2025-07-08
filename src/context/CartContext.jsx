@@ -28,7 +28,6 @@ export const CartProvider = ({ children }) => {
       const existingItemIndex = prevCart.findIndex(
         item => item.id === product.id && item.size === size
       );
-
       if (existingItemIndex >= 0) {
         // 如果已存在，更新数量
         const updatedCart = [...prevCart];
